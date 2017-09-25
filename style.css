@@ -86,6 +86,10 @@ h1, h2{
   padding: 25px 20px;
 }
 
+.nav-links span {
+  color: #14e9b6
+}
+
 nav-links:hover {
   text-decoration: underline;
   color: white;
