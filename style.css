@@ -53,6 +53,14 @@ table {
 	border-spacing: 0;
 }
 
-{
+h1, h2{
+  font-family: 'Roboto Condensed', sans-serif;
+}
 
+.mono {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.george {
+  font-family: Georgia, serif;
 }
