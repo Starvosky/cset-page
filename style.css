@@ -261,3 +261,20 @@ padding: 95px 40px 100px 60px;
 	text-decoration: underline;
 	color: #14e9b6
 }
+
+/* Current Students */
+.current-students .mono {
+	width: 40%;
+}
+
+.img-flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.img-flex img {
+	display: flex;
+	margin: 5px;
+	height: 220px;
+	width: 220px;
+}
