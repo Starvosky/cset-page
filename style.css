@@ -90,7 +90,7 @@ h1, h2{
   color: #14e9b6
 }
 
-nav-links:hover {
+.nav-links:hover {
   text-decoration: underline;
   color: white;
 }
@@ -200,31 +200,64 @@ nav-links:hover {
 
 /* Section */
 .thirds {
-	margin-top: 5px
+	margin-top: 5px;
+	height:
 }
 
 /* Aside */
-.abeground {
-	background: rgba(20,233,183,1);
-	background: -moz-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
-	background: -webkit-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
-	background: -ms-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
-	background: linear-gradient(135deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
-	display: inline-block;
-	width: 30%;
-	margin: 95px 40px 100px 60px;
+.abeground{
+  background: rgba(20,233,183,1);
+background: -moz-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
+background: -webkit-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
+background: linear-gradient(135deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
+display: inline-block;
+width: 30%;
+padding: 95px 40px 100px 60px;
 }
-
-.aside p.mono {
-	margin: 25px 0 25px;
-}
-
 .objectives li {
-	list-style-type: initial;
-	margin: 15px 15px 15px 0;
-	font-size: 15px;
+  list-style-type: initial;
+  margin: 15px 15px 15px 0;
+  font-size: 15px;
+}
+.objectives{
+  margin-left: 15px;
+}
+.abeground p.mono {
+  margin-left: 20px 0 25px;
 }
 
-.objectives {
-	margin-left: 15px;
+/* Schedule */
+.schedule {
+	display: inline-block;
+	width: 50%;
+	padding: 90px 70px 80px;
+	vertical-align: top;
+}
+
+.schedule .small-header {
+	margin: 40px 0 15px;
+}
+
+.small-header {
+	font-size: 21px;
+}
+
+.schedule-block {
+	margin: 0 auto;
+	padding: 40px 0;
+	text-align: center;
+}
+
+.schedule-block .mono {
+	text-decoration: none;
+}
+
+.schedule-block span {
+	margin: 0 15px;
+}
+
+.schedule-block .mono:hover {
+	text-decoration: underline;
+	color: #14e9b6
 }
